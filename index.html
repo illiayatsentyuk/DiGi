@@ -5,13 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DiGi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-
+  <header class="header__wrapper">
+    <a class="header__logo">
+      <img src="./images/logo.svg" alt="logo">
+    </a>
+    <a class="header__menu-button">
+      <img src="./images/menu-button.svg" alt="menu-button">
+    </a>
   </header>
+  <main>
+    <div class="intro">
+      <div class="intro__text">
+        <h1 class="intro__title">
+          мисли<br>
+          ГЛОБАЛЬНО
+        </h1>
+        <p class="intro__description">
+          Di Gі — це діджитал агенція повного циклу, спрямована на найкращий <br>результат наших клієнтів в маркетингу, продажах та управленні
+        </p>
+        <div class="intro__button">детальніше</div>
+      </div>
+      <div class="intro__slider">
+        <div class="intro__slider-position"></div>
+        <div class="intro__slider-position active"></div>
+        <div class="intro__slider-position"></div>
+      </div>
+      <div class="intro__slider-button">
+        <div class="slider-button left">&lt</div>
+        <div class="slider-button right">&gt</div>
+    </div>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
